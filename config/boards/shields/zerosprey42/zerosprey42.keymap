@@ -1,6 +1,5 @@
 /*
- * Copyright (c) 2020 The ZMK Contributors
- * and (c) 2022 tubbytwins (Matthew A. Schnoor) and beekeeb
+ * 
  *
  * SPDX-License-Identifier: MIT
  */
@@ -12,15 +11,13 @@
 
 #define DEFAULT 0
 #define FIRST 1
-#define SECOND 2
-#define THIRD 3
 
 
 
 / {
         keymap {
                 compatible = "zmk,keymap";
-		label = "Zerosprey42";
+		label = "taigamepad4";
 		
                 default_layer {
                 label = "Default";
