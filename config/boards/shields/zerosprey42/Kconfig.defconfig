@@ -1,10 +1,9 @@
 # Copyright (c) 2020 The ZMK Contributors
-# and (c) 2022 tubbytwins (Matthew A. Schnoor) and beekeeb
 # SPDX-License-Identifier: MIT
 
-if SHIELD_ZEROSPREY42
+if SHIELD_TAIGAMEPAD4
 
 config ZMK_KEYBOARD_NAME
-    default "Zerosprey42"
+    default "taigamepad4"
 
 endif
