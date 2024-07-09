@@ -1,6 +1,2 @@
-# Copyright (c) 2020 The ZMK Contributors
-# and (c) 2022 tubbytwins (Matthew A. Schnoor) and beekeeb
-# SPDX-License-Identifier: MIT
-
-config SHIELD_ZEROSPREY42
-    def_bool $(shields_list_contains,zerosprey42)
+config SHIELD_TAIGAMEPAD4
+    def_bool $(shields_list_contains, taigamepad4)
