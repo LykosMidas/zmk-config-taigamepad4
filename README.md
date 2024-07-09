@@ -1,4 +1,4 @@
-# zmk-config-gamepad 
+# zmk-config-taigamepad4
 
 This is a ZMK configuration for a 9 key gamepad to work with the Waveshare RP2040-zero module. Two rows of keys. Four keys on top and five on the bottom.  
 
