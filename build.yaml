@@ -6,5 +6,5 @@
 #
 
 board: [waveshare_rp2040_zero]
-shield: [zerosprey42]
+shield: [taigamepad4]
 
