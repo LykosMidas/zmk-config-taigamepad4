@@ -23,45 +23,23 @@
             >;
         };
 
-        /* First
- * ,----------------------------.
- * |LShift| Cut  | Copy |Paste |  
- * |------+------+------+------+------|
- * | Space| Cut  | Copy |Paste |Return|
- * |-------------+------+------+------|
- */
 
         first_layer {
             label = "First";
             bindings = <
-&trans     &kp LSHIFT  &kp LG(X)  &kp LG(C)
-&kp LG(V)  &trans      &trans     &kp SPACE  &kp LG(X)
+&sl 0  &kp LS(X)   &kp UP_ARROW &kp  DOWN_ARROW
+&sl 1  &kp LS(X)   &kp LS(C)    &kp  LS(V)   &kp SPACE
             >;
         };
 
-        /* Second
- * ,----------------------------.
- * |LShift|Return| Prev |Next  |  
- * |------+------+------+------+------|
- * | Space| Mute |VolUp |VolDn |Play  |
- * |------+------+------+------+------|
- */
 
         second_layer {
             label = "Second";
             bindings = <
-&trans      &kp LSHIFT  &kp RET  &kp C_PREV
-&kp C_NEXT  &trans      &trans   &kp SPACE   &kp C_MUTE
+&sl 0      &kp LSHIFT  &kp RET  &kp C_PREV
+&sl 1  &trans      &trans   &kp SPACE   &kp C_MUTE
             >;
         };
-
-        /* Third
- * ,----------------------------.
- * | BL   |      |      |      |  
- * |------+------+------+------+------|
- * |      |      |      |      |      |
- * |------+------+------+------+------|
- */
 
         third_layer {
             label = "Third";
