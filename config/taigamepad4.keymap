@@ -18,8 +18,8 @@
         default_layer {
             label = "Default";
             bindings = <
-&kp LSHIFT  &kp LCTRL       &kp UP_ARROW    &kp RET
-&kp SPACE   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SPACE
+&kp LSHIFT        &kp LCTRL       &kp UP_ARROW    &kp RET
+&kp LEFT_COMMAND  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SPACE
             >;
         };
 
