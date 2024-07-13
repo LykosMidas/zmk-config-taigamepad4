@@ -1,0 +1,92 @@
+/*
+ * 
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+
+
+#define DEFAULT 0
+#define FIRST 1
+
+
+
+/ {
+        keymap {
+                compatible = "zmk,keymap";
+		label = "taigamepad4";
+		
+                default_layer {
+                label = "Default";
+                	bindings = <
+
+/* Default
+ * ,----------------------------.
+ * |LShift|Control|UArrow|Return|  
+ * |------+------+------+------+------|
+ * | Space|LArrow |DArrow|RArrow|LShift|
+ * |------+------+------+------+------|
+ */
+
+   &kp LSHIFT    &kp LCTRL  &kp UP_ARROW  &kp RET 
+   &kp SPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RSHIFT  
+                        >;
+                };
+
+/* First
+ * ,----------------------------.
+ * |LShift| Cut  | Copy |Paste |  
+ * |------+------+------+------+------|
+ * | Space| Cut  | Copy |Paste |Return|
+ * |-------------+------+------+------|
+ */
+
+                first_layer {
+                label = "First";
+                	bindings = <
+   &trans     &kp LSHIFT  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans
+   &trans     &kp SPACE  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp RET  &trans
+                        >;
+                };
+
+/* Second
+ * ,----------------------------.
+ * |LShift|Return| Prev |Next  |  
+ * |------+------+------+------+------|
+ * | Space| Mute |VolUp |VolDn |Play  |
+ * |------+------+------+------+------|
+ */
+                
+                second_layer {
+                label = "Second";
+                	bindings = <
+   &trans     &kp LSHIFT    &kp RET &kp C_PREV &kp C_NEXT  &trans
+   &trans     &kp SPACE &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_PLAY_PAUSE  &trans
+                	>;
+                
+                };
+
+/* Third
+ * ,----------------------------.
+ * | BL   |      |      |      |  
+ * |------+------+------+------+------|
+ * |      |      |      |      |      |
+ * |------+------+------+------+------|
+ */
+
+                third_layer {
+                label = "Third";
+                	bindings = <
+   &bootloader  &none  &none  &none  &none  
+   &none        &none  &none  &none  &none  &none
+                           >;
+                };
+
+        };
+};
+
+
+

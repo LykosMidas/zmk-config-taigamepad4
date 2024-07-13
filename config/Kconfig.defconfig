@@ -1,0 +1,7 @@
+
+if SHIELD_TAIGAMEPAD4
+
+config ZMK_KEYBOARD_NAME
+    default "gamepad4"
+
+endif
