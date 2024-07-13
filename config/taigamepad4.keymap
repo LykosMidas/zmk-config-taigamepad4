@@ -36,8 +36,8 @@
         second_layer {
             label = "Second";
             bindings = <
-&sl 0      &kp LSHIFT  &kp RET  &kp C_PREV
-&sl 1  &trans      &trans   &kp SPACE   &kp C_MUTE
+&sl 0  &kp C_AC_SEARCH  &kp C_PREV  &kp  C_NEXT
+&sl 1  &kp C_MUTE   &kp C_VOL_DN   &kp C_VOL_UP   &kp C_PLAY_PAUSE
             >;
         };
 
