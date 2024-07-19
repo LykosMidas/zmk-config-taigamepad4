@@ -1,8 +1,8 @@
 file_format: "1"
-id: zerosprey42
-name: Zerosprey42
+id: taigamepad4
+name: Taigamepad4
 type: shield
-url: https://github.com/beekeeb/zerosprey42
+url: https://github.com/LykosMidas/zmk-config-taigamepad4
 requires: [waveshare_rp2040_zero]
 features:
   - keys
