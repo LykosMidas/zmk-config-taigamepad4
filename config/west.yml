@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk-config-taigamepad4
       remote: LykosMidas
-      revision: main
+      revision: https://github.com/LykosMidas/zmk-config-taigamepad4
       import: app/west.yml
   self:
     path: config
