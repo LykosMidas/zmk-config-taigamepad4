@@ -5,6 +5,10 @@
 # the `include` property, e.g:
 #
 on: [push, pull_request, workflow_dispatch]
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    
 board: [waveshare_rp2040_zero]
 shield: [taigamepad4]
 
