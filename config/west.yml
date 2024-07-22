@@ -5,7 +5,7 @@ manifest:
     - name: LykosMidas
       url-base: https://github.dev/LykosMidas
   projects:
-    - name: zmk
+    - name: zmk-config-taigamepad4
       remote: LykosMidas
       revision: waveshare_rp2040_zero
       import: app/west.yml
