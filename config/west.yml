@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk-config-taigamepad4
       remote: LykosMidas
-      revision: waveshare_rp2040_zero
+      revision: main
       import: app/west.yml
   self:
     path: config
