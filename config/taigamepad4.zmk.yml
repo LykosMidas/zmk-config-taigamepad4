@@ -3,6 +3,6 @@ id: taigamepad4
 name: Taigamepad4
 type: shield
 url: https://github.com/LykosMidas/zmk-config-taigamepad4
-requires: [waveshare_rp2040_zero]
+requires: [pro_micro]
 features:
   - keys
