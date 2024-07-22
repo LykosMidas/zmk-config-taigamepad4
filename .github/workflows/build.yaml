@@ -4,7 +4,7 @@
 # control, add individual board + shield combinations to
 # the `include` property, e.g:
 #
-
+on: [push, pull_request, workflow_dispatch]
 board: [waveshare_rp2040_zero]
 shield: [taigamepad4]
 
