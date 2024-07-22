@@ -4,5 +4,8 @@ name: Taigamepad4
 type: shield
 url: https://github.com/LykosMidas/zmk-config-taigamepad4
 requires: [pro_micro]
+exposes: []
 features:
   - keys
+siblings:
+  - taigamepad4
