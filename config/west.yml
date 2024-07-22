@@ -8,6 +8,5 @@ manifest:
     - name: zmk-config-taigamepad4
       remote: LykosMidas
       revision: main
-      import: app/west.yml
   self:
     path: config
