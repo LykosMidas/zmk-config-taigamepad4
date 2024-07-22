@@ -3,10 +3,10 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: LykosMidas
-      url-base: https://github.dev/LykosMidas
+      url-base: https://github.com/LykosMidas
   projects:
     - name: zmk-config-taigamepad4
-      remote: zmkfirmware
+      remote: LykosMidas
       revision: main
       import: app/west.yml
   self:
