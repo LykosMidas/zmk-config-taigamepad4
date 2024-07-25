@@ -2,7 +2,7 @@ file_format: "1"
 id: taigamepad4
 name: Taigamepad4
 type: shield
-url: https://github.com/LykosMidas/zmk-config-taigamepad4
+url: https://github.com/LykosMidas/taigamepad4/
 requires: [pro_micro]
 exposes: []
 features:
