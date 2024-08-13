@@ -16,7 +16,7 @@
         combo_layer3 {
             timeout-ms = <50>;
             key-positions = <0 4>;
-            bindings = <&sl 3>;
+            bindings = <&sl 2>;
         };
     };
 };
