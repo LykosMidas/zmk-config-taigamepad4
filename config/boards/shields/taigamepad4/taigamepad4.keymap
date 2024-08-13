@@ -9,11 +9,12 @@
 
 #define DEFAULT 0
 #define FIRST 1
+#define SECOND 2
 
 / {
     combos {
         compatible = "zmk,combos";
-        combo_layer3 {
+        combo_layer2 {
             timeout-ms = <50>;
             key-positions = <0 4>;
             bindings = <&sl 2>;
